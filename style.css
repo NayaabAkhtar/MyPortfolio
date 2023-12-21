@@ -1,0 +1,134 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(1, 5, 47);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(0, 179, 255);
+    color: black;
+}
+.left{
+    font-size: 1.5rem;
+}
+.left h4{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;  
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 1.07rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.leftsection .button{
+    padding: 20px 0;
+}
+
+.leftsection .btn{
+    padding: 10px;
+    background: rgb(10, 55, 118);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.rightsection img{
+    width: 100%;
+}
+
+.textyellow{
+    color: rgb(249, 234, 32);
+}
+.textgrey{
+    color: gray;
+    font-size: 1.3rem;
+}
+#element{
+    color: rgb(255, 174, 0);
+}
+main hr{
+    border: 0;
+    height: 1.2px;
+    background: rgb(99, 229, 255);
+    margin: 40px 80px;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.7rem;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    background: white;
+    height: 80px;
+    width: 2px;
+    margin: 0 120px;
+}
+.vertical-title{
+    position: relative;
+    top:60px;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: greenyellow;
+}
+footer{
+    background-color: rgb(0, 1, 31);
+}
+.footer{
+    display: block;
+    padding: 20px 100px;
+    justify-content: space-evenly;
+}
+.footer-1{
+    width: 80vw;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;;
+}

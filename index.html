@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayaab Akhtar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><h4>Nayaab's Portfolio</h4></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name Is <span class="textyellow">Nayaab Akhtar</span> 
+                <div>And I'm A Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Visit LinkedIn</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+         <span class="textgrey">What I Have Done So Far</span>
+         <h1>Work Experience</h1>
+         <div class="box">
+            <div class="vertical"><div class="vertical-title"><h4>HTML5</h4></div> </div>
+            <div class="vertical"><div class="vertical-title"><h4>CSS3</h4></div></div>
+            <div class="vertical"><div class="vertical-title"><h4>JAVASCRIPT</h4></div></div>
+            <div class="vertical"><div class="vertical-title"><h4>C++</h4></div></div>
+            <div class="vertical"><div class="vertical-title"><h4>JAVA</h4></div></div>
+         </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-1"><h4>Contact Me</h4><div class="footer-detail">E-mail: nayaabakhtar154@gmail.com</div></div>        
+            </div>  
+        <div class="footer-rights">
+            Copyright &#169;nayaabportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Software Engineer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
